@@ -4,6 +4,8 @@ A finished static browser brawler: three Sloppy Pals plus a Human Commander, fig
 
 Play it at https://crsyndrome-tech.github.io/sloppy-pals/
 
+The 3D open-world version is at https://crsyndrome-tech.github.io/sloppy-pals/world3d/
+
 ## Play locally
 
 Serve the repo root over HTTP (opening `index.html` as a file can block the scripts), then open the printed address in a browser:

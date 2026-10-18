@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Sloppy Pals: Rage Brawl — Open World 3D</title>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}</script>
+</head><body class="inworld">
+<div id="view"></div>
+<div id="fxLayer"></div>
+<div id="tint"></div>
+<!-- world HUD -->
+<div id="whud">
+ <div id="topbar"><div id="badges"></div><div id="area"></div></div>
+ <canvas id="minimap" width="150" height="150"></canvas>
+ <div id="prompt"></div>
+ <div id="wbtns"><button id="bTalk" title="Talk (E)">💬</button><button id="bTeam" title="Team (Tab)">🐸 Team</button><button id="bHelp" title="How to play">❔</button></div>
+ <div id="joy"><div id="joyKnob"></div></div>
+</div>
+<!-- battle HUD -->
+<div id="bhud">
+ <div id="btl" class="timeline"></div>
+ <div id="bpFoe" class="bpanel foe"></div>
+ <div id="bpMe" class="bpanel me"></div>
+ <div id="bact" class="actions"></div>
+ <button id="bLog" title="Battle log">📜</button>
+ <div id="blog"></div>
+</div>
+<div id="spBanner"><img id="spArt" alt=""><div class="spInner"><div class="spLabel">✦ SECRET POWER ✦</div><div id="spName"></div><div id="spWho"></div><div id="spText"></div></div></div>
+<div id="flash"></div>
+<div id="toasts"></div>
+<div id="modal" class="modal hidden"></div>
+<div id="audioBar"></div>
+<div id="loading"><h1>SLOPPY PALS</h1><div class="sub2">RAGE BRAWL · OPEN WORLD</div><div class="lb"><i id="loadbar"></i></div><div id="loadmsg">Loading…</div>
+ <noscript>This game needs JavaScript and WebGL.</noscript></div>
+<script src="js/cards.js"></script><script src="js/audio.js"></script><script src="js/engine.js"></script>
+<script type="module" src="js/main.js"></script>
+<script>
+ // file:// cannot load ES modules / .glb files in most browsers: explain instead of a blank screen
+ if (location.protocol === 'file:') setTimeout(() => { const m = document.getElementById('loadmsg'); if (m && !window.__app) m.innerHTML = 'Browsers block 3D files when opened straight from disk.<br>Run a local server in this folder (e.g. <code>python3 -m http.server</code>) and open <b>http://localhost:8000</b>, or play the GitHub Pages link.'; }, 1500);
+</script>
+</body></html>
