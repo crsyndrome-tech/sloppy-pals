@@ -1,0 +1,1262 @@
+[
+ {
+  "id": 1,
+  "name": "Thunderrunt",
+  "rarity": "Uber Rare",
+  "type": "Creature",
+  "hp": 80,
+  "attack": 30,
+  "defense": 22,
+  "speed": 94,
+  "nerdRage": 15,
+  "move": {
+   "name": "Stormcharge",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Static Reversal",
+   "text": "Returns the next electric hit to its attacker."
+  },
+  "art": "art/01_Thunderrunt.webp",
+  "element_inferred": "electric"
+ },
+ {
+  "id": 2,
+  "name": "Bogslugger",
+  "rarity": "Uber Rare",
+  "type": "Creature",
+  "hp": 120,
+  "attack": 42,
+  "defense": 88,
+  "speed": 12,
+  "nerdRage": 68,
+  "move": {
+   "name": "Bog Belch",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Mire Memory",
+   "text": "Heals 25 HP when struck by water."
+  },
+  "art": "art/02_Bogslugger.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 3,
+  "name": "Slopgator",
+  "rarity": "Uber Rare",
+  "type": "Creature",
+  "hp": 130,
+  "attack": 86,
+  "defense": 70,
+  "speed": 38,
+  "nerdRage": 55,
+  "move": {
+   "name": "Mirebreak",
+   "damage": 65
+  },
+  "secretPower": {
+   "name": "Swamp Lock",
+   "text": "The next target cannot retreat for one turn."
+  },
+  "art": "art/03_Slopgator.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 4,
+  "name": "Glassmoth",
+  "rarity": "Uber Rare",
+  "type": "Creature",
+  "hp": 70,
+  "attack": 38,
+  "defense": 28,
+  "speed": 96,
+  "nerdRage": 42,
+  "move": {
+   "name": "Shardstorm",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Veilshift",
+   "text": "Dodges the next attack once per battle."
+  },
+  "art": "art/04_Glassmoth.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 5,
+  "name": "Prismhart",
+  "rarity": "Celestial",
+  "type": "Creature",
+  "hp": 150,
+  "attack": 88,
+  "defense": 82,
+  "speed": 92,
+  "nerdRage": 30,
+  "move": {
+   "name": "Prism Kick",
+   "damage": 80
+  },
+  "secretPower": {
+   "name": "Prismsight",
+   "text": "Reveals and cancels the next enemy secret power."
+  },
+  "art": "art/05_Prismhart.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 6,
+  "name": "Saint Bloom",
+  "rarity": "Celestial",
+  "type": "Creature",
+  "hp": 160,
+  "attack": 35,
+  "defense": 92,
+  "speed": 70,
+  "nerdRage": 10,
+  "move": {
+   "name": "Petal Reckoning",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Lifebloom",
+   "text": "Restores 50 HP to one ally once per battle."
+  },
+  "art": "art/06_Saint_Bloom.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 7,
+  "name": "Grubbo",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 60,
+  "attack": 40,
+  "defense": 28,
+  "speed": 55,
+  "nerdRage": 72,
+  "move": {
+   "name": "Funk Puff",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Sweet-Face Scam",
+   "text": "The next enemy attack deals 15 less damage."
+  },
+  "art": "art/07_Grubbo.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 8,
+  "name": "Meltdown 1",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 80,
+  "attack": 35,
+  "defense": 48,
+  "speed": 30,
+  "nerdRage": 90,
+  "move": {
+   "name": "Stress Sweat",
+   "damage": 30
+  },
+  "secretPower": {
+   "name": "Cold Shoulder",
+   "text": "Reduces the next enemy attack by 20 damage."
+  },
+  "art": "art/08_Meltdown_1.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 9,
+  "name": "Meltdown 2",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 80,
+  "attack": 40,
+  "defense": 42,
+  "speed": 35,
+  "nerdRage": 85,
+  "move": {
+   "name": "Ice to Meet You",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Twin Freeze",
+   "text": "With Meltdown 1 active, both gain 15 Defense for one turn."
+  },
+  "art": "art/09_Meltdown_2.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 10,
+  "name": "Honkrot",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 90,
+  "attack": 52,
+  "defense": 38,
+  "speed": 45,
+  "nerdRage": 95,
+  "move": {
+   "name": "Shut the Honk Up",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Volume Violation",
+   "text": "Disables the target secret power for one turn."
+  },
+  "art": "art/10_Honkrot.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 11,
+  "name": "Trashoot",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 70,
+  "attack": 60,
+  "defense": 62,
+  "speed": 42,
+  "nerdRage": 65,
+  "move": {
+   "name": "Yeet Your Wallet",
+   "damage": 60
+  },
+  "secretPower": {
+   "name": "Scrap Insurance",
+   "text": "Takes 20 less damage from the next hit."
+  },
+  "art": "art/11_Trashoot.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 12,
+  "name": "Moodusa",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 100,
+  "attack": 70,
+  "defense": 45,
+  "speed": 40,
+  "nerdRage": 98,
+  "move": {
+   "name": "Group Argument",
+   "damage": 70
+  },
+  "secretPower": {
+   "name": "Unanimous Disaster",
+   "text": "Deals 20 damage to each enemy once per battle."
+  },
+  "art": "art/12_Moodusa.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 13,
+  "name": "Panicone",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 50,
+  "attack": 45,
+  "defense": 20,
+  "speed": 90,
+  "nerdRage": 96,
+  "move": {
+   "name": "Oh Shit",
+   "damage": 80
+  },
+  "secretPower": {
+   "name": "Panic Exit",
+   "text": "Escapes one hit and gains 20 Speed next turn."
+  },
+  "art": "art/13_Panicone.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 14,
+  "name": "Crumbust",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 65,
+  "attack": 42,
+  "defense": 35,
+  "speed": 32,
+  "nerdRage": 75,
+  "move": {
+   "name": "Crust Collapse",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Emergency Crumbs",
+   "text": "Heals 20 HP the first time HP drops below half."
+  },
+  "art": "art/14_Crumbust.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 15,
+  "name": "Snottopus",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 75,
+  "attack": 38,
+  "defense": 40,
+  "speed": 55,
+  "nerdRage": 60,
+  "move": {
+   "name": "Snot Shot",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Sticky Situation",
+   "text": "Reduces target Speed by 25 for two turns."
+  },
+  "art": "art/15_Snottopus.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 16,
+  "name": "Wobbloaf",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 110,
+  "attack": 48,
+  "defense": 65,
+  "speed": 15,
+  "nerdRage": 35,
+  "move": {
+   "name": "Dough Body Slam",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Rise Again",
+   "text": "Survives one lethal hit with 1 HP per battle."
+  },
+  "art": "art/16_Wobbloaf.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 17,
+  "name": "Spitebulb",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 55,
+  "attack": 45,
+  "defense": 25,
+  "speed": 38,
+  "nerdRage": 92,
+  "move": {
+   "name": "Cry Me a River",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Onion Grudge",
+   "text": "Next attack gains 20 damage after taking a hit."
+  },
+  "art": "art/17_Spitebulb.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 18,
+  "name": "Chugbug",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 85,
+  "attack": 58,
+  "defense": 75,
+  "speed": 35,
+  "nerdRage": 58,
+  "move": {
+   "name": "Boiler Bash",
+   "damage": 55
+  },
+  "secretPower": {
+   "name": "Pressure Valve",
+   "text": "Blocks one secret power once per battle."
+  },
+  "art": "art/18_Chugbug.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 19,
+  "name": "Glitchick",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 45,
+  "attack": 38,
+  "defense": 18,
+  "speed": 95,
+  "nerdRage": 82,
+  "move": {
+   "name": "Buffer Peck",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Frame Skip",
+   "text": "Repeats its last attack for half damage once per battle."
+  },
+  "art": "art/19_Glitchick.webp",
+  "element_inferred": "electric"
+ },
+ {
+  "id": 20,
+  "name": "Hissler",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 60,
+  "attack": 40,
+  "defense": 30,
+  "speed": 60,
+  "nerdRage": 55,
+  "move": {
+   "name": "Crust Fang",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Sourdough Squeeze",
+   "text": "Prevents target retreat for one turn."
+  },
+  "art": "art/20_Hissler.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 21,
+  "name": "Ploumer",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 95,
+  "attack": 65,
+  "defense": 68,
+  "speed": 32,
+  "nerdRage": 94,
+  "move": {
+   "name": "Flush Rush",
+   "damage": 60
+  },
+  "secretPower": {
+   "name": "Unclogged Fury",
+   "text": "Ignores the next defensive secret power."
+  },
+  "art": "art/21_Ploumer.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 22,
+  "name": "Rotcap Rex",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 125,
+  "attack": 78,
+  "defense": 72,
+  "speed": 40,
+  "nerdRage": 80,
+  "move": {
+   "name": "Spore Scorch",
+   "damage": 65
+  },
+  "secretPower": {
+   "name": "Fungal Rebirth",
+   "text": "Heals 30 HP once per battle below half HP."
+  },
+  "art": "art/22_Rotcap_Rex.webp",
+  "element_inferred": "fire"
+ },
+ {
+  "id": 23,
+  "name": "Gloomaw",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 145,
+  "attack": 88,
+  "defense": 90,
+  "speed": 18,
+  "nerdRage": 75,
+  "move": {
+   "name": "Cavern Crunch",
+   "damage": 75
+  },
+  "secretPower": {
+   "name": "Blackout Hide",
+   "text": "Reduces incoming damage by 25 for one turn."
+  },
+  "art": "art/23_Gloomaw.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 24,
+  "name": "Undermaw",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 115,
+  "attack": 82,
+  "defense": 65,
+  "speed": 72,
+  "nerdRage": 68,
+  "move": {
+   "name": "Six-Leg Siege",
+   "damage": 70
+  },
+  "secretPower": {
+   "name": "Burrow Ambush",
+   "text": "Its next attack bypasses defensive secret powers."
+  },
+  "art": "art/24_Undermaw.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 25,
+  "name": "Knockrot",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 90,
+  "attack": 55,
+  "defense": 50,
+  "speed": 60,
+  "nerdRage": 88,
+  "move": {
+   "name": "Midnight Knock",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Wrong Door",
+   "text": "Redirects the next hit to another enemy once per battle."
+  },
+  "art": "art/25_Knockrot.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 26,
+  "name": "Grinwick",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 85,
+  "attack": 60,
+  "defense": 38,
+  "speed": 78,
+  "nerdRage": 85,
+  "move": {
+   "name": "Lantern Lunge",
+   "damage": 55
+  },
+  "secretPower": {
+   "name": "False Welcome",
+   "text": "Forces one enemy to become the active target."
+  },
+  "art": "art/26_Grinwick.webp",
+  "element_inferred": "fire"
+ },
+ {
+  "id": 27,
+  "name": "Bickerbeak",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 75,
+  "attack": 48,
+  "defense": 35,
+  "speed": 45,
+  "nerdRage": 87,
+  "move": {
+   "name": "Two-Mouth Tantrum",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Rare Agreement",
+   "text": "Next attack gains 25 damage once per battle."
+  },
+  "art": "art/27_Bickerbeak.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 28,
+  "name": "Muckmiser",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 80,
+  "attack": 35,
+  "defense": 60,
+  "speed": 28,
+  "nerdRage": 70,
+  "move": {
+   "name": "Amber Pelt",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Decoy Deposit",
+   "text": "Absorbs the next 30 damage with an amber double."
+  },
+  "art": "art/28_Muckmiser.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 29,
+  "name": "Snorequake",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 120,
+  "attack": 62,
+  "defense": 85,
+  "speed": 10,
+  "nerdRage": 20,
+  "move": {
+   "name": "Snore Slam",
+   "damage": 60
+  },
+  "secretPower": {
+   "name": "Sleep Fault",
+   "text": "Deals 15 damage to each enemy once per battle."
+  },
+  "art": "art/29_Snorequake.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 30,
+  "name": "Flinchwick",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 45,
+  "attack": 28,
+  "defense": 20,
+  "speed": 76,
+  "nerdRage": 88,
+  "move": {
+   "name": "Wick Flick",
+   "damage": 30
+  },
+  "secretPower": {
+   "name": "Panic Flare",
+   "text": "Cancels one enemy secret power before extinguishing."
+  },
+  "art": "art/30_Flinchwick.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 31,
+  "name": "Gossipod",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 65,
+  "attack": 40,
+  "defense": 48,
+  "speed": 25,
+  "nerdRage": 78,
+  "move": {
+   "name": "Secret Shout",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Receipts",
+   "text": "Copies one enemy secret power once per battle."
+  },
+  "art": "art/31_Gossipod.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 32,
+  "name": "Velcrab",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 80,
+  "attack": 50,
+  "defense": 78,
+  "speed": 20,
+  "nerdRage": 85,
+  "move": {
+   "name": "Burr Pinch",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Compliment Trap",
+   "text": "Reduces the next target attack by 20 damage."
+  },
+  "art": "art/32_Velcrab.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 33,
+  "name": "Puddlebrow",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 70,
+  "attack": 32,
+  "defense": 45,
+  "speed": 50,
+  "nerdRage": 72,
+  "move": {
+   "name": "Stolen Stomp",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Footstep Bank",
+   "text": "Its next attack gains half the last damage received."
+  },
+  "art": "art/33_Puddlebrow.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 34,
+  "name": "Kettleback",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 100,
+  "attack": 55,
+  "defense": 90,
+  "speed": 12,
+  "nerdRage": 92,
+  "move": {
+   "name": "Steam Scream",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Boiling Point",
+   "text": "Next attack gains 30 damage below half HP."
+  },
+  "art": "art/34_Kettleback.webp",
+  "element_inferred": "fire"
+ },
+ {
+  "id": 35,
+  "name": "Cringill",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 60,
+  "attack": 30,
+  "defense": 28,
+  "speed": 66,
+  "nerdRage": 86,
+  "move": {
+   "name": "Cringe Cloud",
+   "damage": 30
+  },
+  "secretPower": {
+   "name": "Secondhand Shame",
+   "text": "Reduces all enemy Speed by 20 for one turn."
+  },
+  "art": "art/35_Cringill.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 36,
+  "name": "Sulkloom",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 65,
+  "attack": 42,
+  "defense": 30,
+  "speed": 74,
+  "nerdRage": 93,
+  "move": {
+   "name": "Sulking Sweep",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Silent Treatment",
+   "text": "Disables the target secret power for two turns."
+  },
+  "art": "art/36_Sulkloom.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 37,
+  "name": "Fumblefin",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 55,
+  "attack": 32,
+  "defense": 25,
+  "speed": 70,
+  "nerdRage": 55,
+  "move": {
+   "name": "Oops Splash",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Accidental Swap",
+   "text": "Switches the active enemy with one reserve enemy."
+  },
+  "art": "art/37_Fumblefin.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 38,
+  "name": "Spindlegrump",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 75,
+  "attack": 52,
+  "defense": 55,
+  "speed": 62,
+  "nerdRage": 84,
+  "move": {
+   "name": "Leafwheel Lash",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Road Rage",
+   "text": "Its next attack gains 20 damage after a dodge."
+  },
+  "art": "art/38_Spindlegrump.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 39,
+  "name": "Bloatnote",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 70,
+  "attack": 45,
+  "defense": 35,
+  "speed": 38,
+  "nerdRage": 45,
+  "move": {
+   "name": "Bass Blast",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Hold That Note",
+   "text": "Enemy cannot use its attack on its next turn."
+  },
+  "art": "art/39_Bloatnote.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 40,
+  "name": "Latchling",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 65,
+  "attack": 48,
+  "defense": 68,
+  "speed": 55,
+  "nerdRage": 64,
+  "move": {
+   "name": "Clasp Snap",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Safety Lock",
+   "text": "Stops the enemy team swapping for one turn."
+  },
+  "art": "art/40_Latchling.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 41,
+  "name": "Fuzzjury",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 85,
+  "attack": 40,
+  "defense": 52,
+  "speed": 24,
+  "nerdRage": 90,
+  "move": {
+   "name": "Verdict Volley",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Objection",
+   "text": "Cancels one attack once per battle."
+  },
+  "art": "art/41_Fuzzjury.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 42,
+  "name": "Blinkroot",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 50,
+  "attack": 35,
+  "defense": 20,
+  "speed": 98,
+  "nerdRage": 75,
+  "move": {
+   "name": "Blink Bonk",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Now You Don't",
+   "text": "Dodges one hit and swaps with an ally."
+  },
+  "art": "art/42_Blinkroot.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 43,
+  "name": "Rummuzzle",
+  "rarity": "Common",
+  "type": "Creature",
+  "hp": 95,
+  "attack": 45,
+  "defense": 62,
+  "speed": 25,
+  "nerdRage": 50,
+  "move": {
+   "name": "Pocket Junk",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Wrong Item Right Time",
+   "text": "Restores 25 HP to a random ally once per battle."
+  },
+  "art": "art/43_Rummuzzle.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 44,
+  "name": "Wheezerang",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 70,
+  "attack": 52,
+  "defense": 30,
+  "speed": 86,
+  "nerdRage": 91,
+  "move": {
+   "name": "Comeback Crash",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Last Word",
+   "text": "Deals 25 damage when knocked out."
+  },
+  "art": "art/44_Wheezerang.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 45,
+  "name": "Tattletide",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 65,
+  "attack": 35,
+  "defense": 38,
+  "speed": 48,
+  "nerdRage": 82,
+  "move": {
+   "name": "Receipt Ripple",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Public Record",
+   "text": "Reveals all enemy secret powers for two turns."
+  },
+  "art": "art/45_Tattletide.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 46,
+  "name": "Dreadonk",
+  "rarity": "Rare",
+  "type": "Creature",
+  "hp": 100,
+  "attack": 58,
+  "defense": 65,
+  "speed": 30,
+  "nerdRage": 89,
+  "move": {
+   "name": "Doom Bray",
+   "damage": 55
+  },
+  "secretPower": {
+   "name": "Heavy Forecast",
+   "text": "Halves enemy Speed for two turns."
+  },
+  "art": "art/46_Dreadonk.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 47,
+  "name": "Cinderrunt",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 90,
+  "attack": 70,
+  "defense": 40,
+  "speed": 76,
+  "nerdRage": 80,
+  "move": {
+   "name": "Cinder Scream",
+   "damage": 60
+  },
+  "secretPower": {
+   "name": "Flashfire",
+   "text": "Next attack gains 25 damage after taking fire damage."
+  },
+  "art": "art/47_Cinderrunt.webp",
+  "element_inferred": "fire"
+ },
+ {
+  "id": 48,
+  "name": "Voltrunt",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 75,
+  "attack": 58,
+  "defense": 30,
+  "speed": 98,
+  "nerdRage": 65,
+  "move": {
+   "name": "Volt Vex",
+   "damage": 55
+  },
+  "secretPower": {
+   "name": "Overclock",
+   "text": "Attacks twice at half damage once per battle."
+  },
+  "art": "art/48_Voltrunt.webp",
+  "element_inferred": "electric"
+ },
+ {
+  "id": 49,
+  "name": "Venomrunt",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 95,
+  "attack": 50,
+  "defense": 58,
+  "speed": 60,
+  "nerdRage": 78,
+  "move": {
+   "name": "Venom Vent",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Toxic Aftertaste",
+   "text": "Target loses 10 HP after each of its next three turns."
+  },
+  "art": "art/49_Venomrunt.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 50,
+  "name": "Tiderunt",
+  "rarity": "Epic",
+  "type": "Creature",
+  "hp": 100,
+  "attack": 55,
+  "defense": 65,
+  "speed": 72,
+  "nerdRage": 40,
+  "move": {
+   "name": "Riptide Rant",
+   "damage": 50
+  },
+  "secretPower": {
+   "name": "Undertow",
+   "text": "Heals 20 HP and forces the target to retreat."
+  },
+  "art": "art/50_Tiderunt.webp",
+  "element_inferred": "water"
+ },
+ {
+  "id": 51,
+  "name": "Scorch",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 85,
+  "attack": 35,
+  "defense": 30,
+  "speed": 62,
+  "nerdRage": 95,
+  "move": {
+   "name": "Bad Call",
+   "damage": 30
+  },
+  "secretPower": {
+   "name": "Accidental Genius",
+   "text": "One ally gains 25 attack damage on its next turn."
+  },
+  "art": "art/51_Scorch.webp",
+  "element_inferred": "fire"
+ },
+ {
+  "id": 52,
+  "name": "Scorch's Mother",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 45,
+  "attack": 12,
+  "defense": 25,
+  "speed": 18,
+  "nerdRage": 35,
+  "move": {
+   "name": "Mom Voice",
+   "damage": 20
+  },
+  "secretPower": {
+   "name": "Lasting Hope",
+   "text": "Restores 30 HP to one ally once per battle."
+  },
+  "art": "art/52_Scorchs_Mother.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 53,
+  "name": "Scorch's Father",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 100,
+  "attack": 65,
+  "defense": 72,
+  "speed": 68,
+  "nerdRage": 50,
+  "move": {
+   "name": "Champion Strike",
+   "damage": 60
+  },
+  "secretPower": {
+   "name": "Old-School Read",
+   "text": "Blocks the next enemy secret power."
+  },
+  "art": "art/53_Scorchs_Father.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 54,
+  "name": "Cousin Dan",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 65,
+  "attack": 25,
+  "defense": 32,
+  "speed": 38,
+  "nerdRage": 55,
+  "move": {
+   "name": "Awkward Entrance",
+   "damage": 25
+  },
+  "secretPower": {
+   "name": "Wrong Place Right Time",
+   "text": "Redirects one hit to a decoy once per battle."
+  },
+  "art": "art/54_Cousin_Dan.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 55,
+  "name": "Milo Vault",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 90,
+  "attack": 48,
+  "defense": 75,
+  "speed": 28,
+  "nerdRage": 82,
+  "move": {
+   "name": "Brass Trap",
+   "damage": 45
+  },
+  "secretPower": {
+   "name": "Rigged Outcome",
+   "text": "Target cannot attack next turn once per battle."
+  },
+  "art": "art/55_Milo_Vault.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 56,
+  "name": "Vera Vault",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 75,
+  "attack": 45,
+  "defense": 55,
+  "speed": 60,
+  "nerdRage": 70,
+  "move": {
+   "name": "Specimen Snare",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Collector's Clause",
+   "text": "Copies a defeated enemy secret power once per battle."
+  },
+  "art": "art/56_Vera_Vault.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 57,
+  "name": "Adventure Trainer",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 80,
+  "attack": 42,
+  "defense": 38,
+  "speed": 78,
+  "nerdRage": 65,
+  "move": {
+   "name": "Trailbreaker",
+   "damage": 40
+  },
+  "secretPower": {
+   "name": "Quick Thinking",
+   "text": "Lets one ally retreat without spending its turn."
+  },
+  "art": "art/57_Adventure_Trainer.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 58,
+  "name": "Winter Hunter",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 110,
+  "attack": 72,
+  "defense": 68,
+  "speed": 35,
+  "nerdRage": 88,
+  "move": {
+   "name": "Frost Hook",
+   "damage": 65
+  },
+  "secretPower": {
+   "name": "Cold Ambush",
+   "text": "The first attack of the battle gains 20 damage."
+  },
+  "art": "art/58_Winter_Hunter.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 59,
+  "name": "Field Scientist",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 65,
+  "attack": 25,
+  "defense": 40,
+  "speed": 45,
+  "nerdRage": 68,
+  "move": {
+   "name": "Gadget Misfire",
+   "damage": 25
+  },
+  "secretPower": {
+   "name": "Field Calibration",
+   "text": "One ally gains 20 Defense for two turns."
+  },
+  "art": "art/59_Field_Scientist.webp",
+  "element_inferred": "none"
+ },
+ {
+  "id": 60,
+  "name": "Young Villain",
+  "rarity": "Human",
+  "type": "Human",
+  "hp": 70,
+  "attack": 38,
+  "defense": 42,
+  "speed": 70,
+  "nerdRage": 86,
+  "move": {
+   "name": "Velvet Sting",
+   "damage": 35
+  },
+  "secretPower": {
+   "name": "Perfect Alibi",
+   "text": "Avoids the next secret power used against her."
+  },
+  "art": "art/60_Young_Villain.webp",
+  "element_inferred": "none"
+ }
+]
